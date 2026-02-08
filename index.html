@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSplit - Dynamic Payment Splitting Protocol</title>
+    <meta name="description"
+        content="A DeFi payment-splitting protocol where ENS names dynamically define how funds are split across multiple wallets">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4L4 10V22L16 28L28 22V10L16 4Z" stroke="url(#logo-gradient)" stroke-width="2"
+                                stroke-linejoin="round" />
+                            <path d="M16 16L10 13V19L16 22L22 19V13L16 16Z" fill="url(#logo-gradient)" />
+                            <defs>
+                                <linearGradient id="logo-gradient" x1="4" y1="4" x2="28" y2="28">
+                                    <stop offset="0%" stop-color="#6366f1" />
+                                    <stop offset="100%" stop-color="#8b5cf6" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="brand-text">ENSplit</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="nav-link active" data-page="home">Dashboard</a>
+                    <a href="#" class="nav-link" data-page="configure">Configure</a>
+                    <a href="#" class="nav-link" data-page="send">Send Payment</a>
+                    <a href="#" class="nav-link" data-page="history">History</a>
+                </div>
+                <div class="nav-actions">
+                    <div class="network-badge">
+                        <span class="network-dot"></span>
+                        Sepolia Testnet
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Content will be dynamically loaded here -->
+        </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
