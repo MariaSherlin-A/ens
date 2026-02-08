@@ -8,42 +8,42 @@
 
 ---
 
-## 🎯 What Is ENSplit?
+## What Is ENSplit?
 
 ENSplit allows organizations to **send one payment to one ENS name**, and the funds are **automatically split across multiple recipients** based on live ENS records.
-
-✅ **No smart contract redeployments**  
-✅ **No changing frontend logic**  
-✅ **No hard-coded wallet lists**  
+Payout logic should be as easy to edit as a website DNS record, but as secure as a blockchain transaction.
+**No smart contract redeployments**  
+**No changing frontend logic**  
+**No hard-coded wallet lists**  
 
 **ENS controls where the money flows.**
 
 ---
 
-## 🔥 The Problem It Solves
+## The Problem It Solves
 
 Organizations today face constant payment routing headaches:
 
-- 🔄 **Changing contributor wallets**
-- 💰 **Treasury + ops + tax splits**
-- 🌍 **Regional payout differences**
-- 📊 **Vendor + platform fee deductions**
+- **Changing contributor wallets**
+- **Treasury + ops + tax splits**
+- **Regional payout differences**
+- **Vendor + platform fee deductions**
 
 Current solutions require:
-- ❌ Custom scripts
-- ❌ Manual calculations
-- ❌ Multiple transactions
-- ❌ Frequent contract updates
+- Custom scripts
+- Manual calculations
+- Multiple transactions
+- Frequent contract updates
 
 This causes:
-- 💥 Errors
-- 💸 Overpayments
-- ⏰ Delays
-- 📉 Accounting nightmares
+- Errors
+- Overpayments
+- Delays
+- Accounting nightmares
 
 ---
 
-## ✨ How ENSplit Solves This
+## How ENSplit Solves This
 
 Instead of hard-coding payout logic into contracts, **organizations define payout rules inside ENS records**.
 
@@ -67,42 +67,42 @@ split.treasury.percent = 5
 
 ### When Funds Are Sent:
 
-1. ✅ ENS is resolved live
-2. ✅ Records are read on-chain
-3. ✅ Funds are split automatically
-4. ✅ Payments execute in one transaction
+1. ENS is resolved live
+2. Records are read on-chain
+3. Funds are split automatically
+4. Payments execute in one transaction
 
 **Change the team? Update ENS. That's it.**
 
 ---
 
-## 🏗️ Core Innovation
+## Core Innovation
 
 > **ENSplit turns ENS into a programmable payment router**, allowing organizations to update fund distribution logic without touching contracts or frontends, while still executing trustless DeFi transactions.
 
 ---
 
-## 🎨 Features
+##  Features
 
-### 🏠 Dashboard
+### Dashboard
 - Real-time statistics
 - Total payment volume
 - Active ENS configurations
 - Network status
 
-### ⚙️ Configure Splits
+###  Configure Splits
 - Visual split configuration editor
 - Live preview of payment distribution
 - Percentage validation
 - Support for multiple recipients
 
-### 💸 Send Payments
+###  Send Payments
 - ENS name selection
 - Amount input with live conversion
 - Payment breakdown preview
 - One-click execution
 
-### 📜 Transaction History
+### Transaction History
 - Complete payment records
 - Transaction hashes
 - Split details
@@ -110,7 +110,7 @@ split.treasury.percent = 5
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -139,7 +139,7 @@ split.treasury.percent = 5
 
 ---
 
-## 🧪 Testnet Configuration
+## Testnet Configuration
 
 This demo uses **Sepolia Testnet** with simulated ENS data. No real wallet connection or real ETH required.
 
@@ -159,7 +159,7 @@ This demo uses **Sepolia Testnet** with simulated ENS data. No real wallet conne
 
 ---
 
-## 🎯 How to Use
+##  How to Use
 
 ### 1. Configure a Split
 
@@ -190,7 +190,7 @@ This demo uses **Sepolia Testnet** with simulated ENS data. No real wallet conne
 
 ---
 
-## 🔧 Technical Architecture
+##  Technical Architecture
 
 ### ENS Integration
 
@@ -231,19 +231,19 @@ Record Transaction
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 ENSplit features a **premium dark mode interface** with:
 
-- 🎨 Rich color gradients
-- ✨ Smooth micro-animations
-- 🔮 Glassmorphism effects
-- 📱 Responsive design
-- ⚡ Fast, intuitive interactions
+- Rich color gradients
+- Smooth micro-animations
+- Glassmorphism effects
+- Responsive design
+- Fast, intuitive interactions
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ensplit/
@@ -257,43 +257,43 @@ ensplit/
 
 ---
 
-## 🔐 Security Considerations
+## Security Considerations
 
 For production deployment, consider:
 
-- ✅ Real ENS integration with wagmi/viem
-- ✅ Wallet connection (MetaMask, WalletConnect)
-- ✅ Smart contract audits
-- ✅ Gas optimization
-- ✅ Error handling for malformed ENS data
-- ✅ Rate limiting
-- ✅ Transaction confirmation UI
+- Real ENS integration with wagmi/viem
+- Wallet connection (MetaMask, WalletConnect)
+- Smart contract audits
+- Gas optimization
+- Error handling for malformed ENS data
+- Rate limiting
+- Transaction confirmation UI
 
 ---
 
-## 🌟 Why This Matters
+## Why This Matters
 
 ### For Organizations:
-- ✅ Fewer transactions
-- ✅ Fewer mistakes
-- ✅ Cleaner accounting
-- ✅ Faster payouts
+- Fewer transactions
+- Fewer mistakes
+- Cleaner accounting
+- Faster payouts
 
 ### For DeFi:
-- ✅ Novel use of ENS infrastructure
-- ✅ Programmable payment routing
-- ✅ Trustless execution
-- ✅ Zero custody
+- Novel use of ENS infrastructure
+- Programmable payment routing
+- Trustless execution
+- Zero custody
 
 ### For Users:
-- ✅ Human-readable addresses
-- ✅ Transparent splits
-- ✅ One-click payments
-- ✅ Instant updates
+- Human-readable addresses
+- Transparent splits
+- One-click payments
+- Instant updates
 
 ---
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real mainnet deployment
 - [ ] Multi-token support (ERC20)
@@ -306,13 +306,13 @@ For production deployment, consider:
 
 ---
 
-## 📝 License
+##  License
 
 This project is a demonstration built for educational purposes.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is a demo project. For production use, consider:
 
@@ -324,7 +324,7 @@ This is a demo project. For production use, consider:
 
 ---
 
-## 📞 Support
+##  Support
 
 For questions or issues, please refer to:
 
@@ -334,13 +334,12 @@ For questions or issues, please refer to:
 
 ---
 
-## 🎉 Acknowledgments
+##  Acknowledgments
 
 Built with:
 - **ENS** - Ethereum Name Service
 - **Vite** - Next Generation Frontend Tooling
 - **Sepolia** - Ethereum Testnet
 
----
 
-**Made with 💜 for the DeFi community**
+
